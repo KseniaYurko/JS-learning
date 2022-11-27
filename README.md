@@ -38,7 +38,7 @@ Here are the main tasks from this tutorial :)
 <details><summary> <a href="https://learn.javascript.ru/ifelse"><b>#2.11 Logical operators</b></a></summary>
 <p>
 
-**1.js: "Проверка значения из диапазона"**  
+1. **1.js: "Проверка значения из диапазона"**  
 
 Напишите условие `if` для проверки, что переменная `age` находится в диапазоне между `14` и `90` включительно.
 
@@ -46,7 +46,7 @@ Here are the main tasks from this tutorial :)
 
 --------------------------------------------------------------------------------
  
-**2.js: "Проверка значения вне диапазона"**  
+2. **2.js: "Проверка значения вне диапазона"**  
 
 Напишите условие `if` для проверки, что значение переменной `age` НЕ находится в диапазоне `14` и `90` включительно.
 
@@ -54,7 +54,7 @@ Here are the main tasks from this tutorial :)
 
 --------------------------------------------------------------------------------
  
-**1.js: "Проверка функций"** 
+3. **checkingLog.js: "Проверка функций"** 
 
 Проверка функций, описанных в скриптах `1.js` и `2.js`
 
@@ -66,13 +66,13 @@ Here are the main tasks from this tutorial :)
 <details><summary> <a href="https://learn.javascript.ru/while-for"><b>#2.13 Cycles while for</b></a></summary>
 <p>
 
-**printEven.js: "Выведите чётные числа"**  
+1. **printEven.js: "Выведите чётные числа"**  
 
 При помощи цикла `for` выведите чётные числа от `2` до `10`.
 
 --------------------------------------------------------------------------------
  
-**forToWhile.js: "Замените for на while"**  
+2. **forToWhile.js: "Замените for на while"**  
 
 Перепишите код, заменив цикл `for` на `while`, без изменения поведения цикла.
 
@@ -84,7 +84,7 @@ Here are the main tasks from this tutorial :)
 
 --------------------------------------------------------------------------------
  
-**incorrectInput.js, incorrectInput2.js: "Повторять цикл, пока ввод неверен"** 
+3. **incorrectInput.js, incorrectInput2.js: "Повторять цикл, пока ввод неверен"** 
 
 Напишите цикл, который предлагает `prompt` ввести число, большее `100`. Если посетитель ввёл другое число – попросить ввести ещё раз, и так далее.
 
@@ -94,7 +94,7 @@ Here are the main tasks from this tutorial :)
 
 --------------------------------------------------------------------------------
  
-**simpleNumbers.js: "Вывести простые числа"** 
+4. **simpleNumbers.js: "Вывести простые числа"** 
 
 Напишите код, который выводит все простые числа из интервала от `2` до `n`.
 
@@ -109,7 +109,56 @@ P.S. Код также должен легко модифицироваться 
 </details>
 
 <details><summary> <a href="https://learn.javascript.ru/switch"><b>#2.14 Construction Switch</b></a></summary>
+<p>
 
+1. **switchToFor.js: "Напишите "if", аналогичный "switch""**  
+
+Напишите `if..else`, соответствующий следующему `switch`:
+
+```javascript
+    switch (browser) {
+      case 'Edge':
+      alert( "You've got the Edge!" );
+      break;
+
+    case 'Chrome':
+    case 'Firefox':
+    case 'Safari':
+    case 'Opera':
+      alert( 'Okay we support these browsers too' );
+      break;
+
+    default:
+      alert( 'We hope that this page looks ok!' );
+  }
+```
+
+--------------------------------------------------------------------------------
+ 
+ 2. **ifToSwitch.js: "Переписать условия "if" на "switch""** 
+
+Перепишите код с использованием одной конструкции `switch`:
+
+```javascript
+    const number = +prompt('Введите число между 0 и 3', '');
+
+    if (number === 0) {
+      alert('Вы ввели число 0');
+    }
+
+    if (number === 1) {
+      alert('Вы ввели число 1');
+    }
+
+    if (number === 2 || number === 3) {
+      alert('Вы ввели число 2, а может и 3');
+    }
+
+```
+
+--------------------------------------------------------------------------------
+ 
+</p>
 </details>
 
 <details><summary> <a href="https://learn.javascript.ru/switch"><b>#2.15 Functions</b></a></summary>
