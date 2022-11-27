@@ -218,5 +218,24 @@ pow(1, 100) = 1 * 1 * ...* 1 = 1
 </details>
 
 <details><summary> <a href="https://learn.javascript.ru/switch"><b>#2.17 Arrow functions</b></a></summary>
+<p>
 
+1. **funcExpression_toArrow.js and funcExpression_toArrow_2.js: "Перепишите с использованием функции-стрелки"**  
+
+Замените код `Function Expression` стрелочной функцией:
+
+```javascript
+function ask(question, yes, no) {
+  if (confirm(question)) yes()
+  else no();
+}
+
+ask(
+  "Вы согласны?",
+  function() { alert("Вы согласились."); },
+  function() { alert("Вы отменили выполнение."); }
+);
+```
+
+</p>
 </details>
