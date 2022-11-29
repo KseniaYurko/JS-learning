@@ -240,7 +240,7 @@ ask(
 </p>
 </details>
 
-##3. Code quolity
+## 3. Code quolity
 
 <details><summary> <a href="https://learn.javascript.ru/debugging-chrome"><b>#3.1 Debugging in the browser</b></a></summary>
 <p>
