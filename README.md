@@ -239,3 +239,29 @@ ask(
 
 </p>
 </details>
+
+##3. Code quolity
+
+<details><summary> <a href="https://learn.javascript.ru/debugging-chrome"><b>#3.1 Debugging in the browser</b></a></summary>
+<p>
+
+1. **hello.js: ""**  
+
+
+
+--------------------------------------------------------------------------------
+ 
+</p>
+</details>
+
+<details><summary> <a href="https://learn.javascript.ru/debugging-chrome"><b>#3.5 Automatic testing with Motcha</b></a></summary>
+<p>
+
+1. **.js: ""**  
+
+
+
+--------------------------------------------------------------------------------
+ 
+</p>
+</details>
